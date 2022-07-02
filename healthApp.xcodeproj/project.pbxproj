@@ -13,6 +13,9 @@
 		B3354DB3286DF38A002F2F48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3354DB1286DF38A002F2F48 /* Main.storyboard */; };
 		B3354DB5286DF38C002F2F48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3354DB4286DF38C002F2F48 /* Assets.xcassets */; };
 		B3354DB8286DF38C002F2F48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3354DB6286DF38C002F2F48 /* LaunchScreen.storyboard */; };
+		B3354DC0286DF6BF002F2F48 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3354DBF286DF6BF002F2F48 /* FirstVC.swift */; };
+		B3354DC4286F3D64002F2F48 /* OxygenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3354DC3286F3D64002F2F48 /* OxygenVC.swift */; };
+		B3354DC6286FB5FA002F2F48 /* SCOREVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3354DC5286FB5FA002F2F48 /* SCOREVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		B3354DB4286DF38C002F2F48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3354DB7286DF38C002F2F48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3354DB9286DF38C002F2F48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3354DBF286DF6BF002F2F48 /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
+		B3354DC3286F3D64002F2F48 /* OxygenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OxygenVC.swift; sourceTree = "<group>"; };
+		B3354DC5286FB5FA002F2F48 /* SCOREVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCOREVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				B3354DB4286DF38C002F2F48 /* Assets.xcassets */,
 				B3354DB6286DF38C002F2F48 /* LaunchScreen.storyboard */,
 				B3354DB9286DF38C002F2F48 /* Info.plist */,
+				B3354DBF286DF6BF002F2F48 /* FirstVC.swift */,
+				B3354DC3286F3D64002F2F48 /* OxygenVC.swift */,
+				B3354DC5286FB5FA002F2F48 /* SCOREVC.swift */,
 			);
 			path = healthApp;
 			sourceTree = "<group>";
@@ -138,7 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3354DC4286F3D64002F2F48 /* OxygenVC.swift in Sources */,
+				B3354DC6286FB5FA002F2F48 /* SCOREVC.swift in Sources */,
 				B3354DB0286DF38A002F2F48 /* ViewController.swift in Sources */,
+				B3354DC0286DF6BF002F2F48 /* FirstVC.swift in Sources */,
 				B3354DAC286DF38A002F2F48 /* AppDelegate.swift in Sources */,
 				B3354DAE286DF38A002F2F48 /* SceneDelegate.swift in Sources */,
 			);
